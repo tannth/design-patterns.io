@@ -1,10 +1,10 @@
-package c2_abstract_factory;
+package c02_abstract_factory_ex1;
 
-public class LuxuryCar implements Car {
+public class NonLuxuryCar implements Car {
 
     private String name;
 
-    public LuxuryCar(String name) {
+    public NonLuxuryCar(String name) {
         this.name = name;
     }
 
@@ -15,6 +15,6 @@ public class LuxuryCar implements Car {
 
     @Override
     public String getCarFeatures() {
-        return "Luxury Car Features ";
+        return "Non-Luxury Car Features ";
     }
 }

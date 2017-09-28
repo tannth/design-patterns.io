@@ -1,4 +1,4 @@
-package c2_abstract_factory;
+package c02_abstract_factory_ex1;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

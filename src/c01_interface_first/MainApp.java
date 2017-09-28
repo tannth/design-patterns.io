@@ -1,4 +1,4 @@
-package c1_interface.first;
+package c01_interface_first;
 
 public class MainApp {
     public static void main(String[] args) {

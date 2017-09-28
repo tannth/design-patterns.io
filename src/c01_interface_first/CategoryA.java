@@ -1,4 +1,4 @@
-package c1_interface.first;
+package c01_interface_first;
 
 public class CategoryA {
     double baseSalary;
