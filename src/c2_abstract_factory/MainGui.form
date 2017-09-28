@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="c2_abstract_factory.MainGui">
+  <grid id="27dc6" binding="panelMain" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="410"/>
+    </constraints>
+    <properties>
+      <minimumSize width="500" height="131"/>
+      <preferredSize width="500" height="131"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="9f539" binding="westLabelPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="West"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="d93a4" class="javax.swing.JLabel" binding="vehicleLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Vehicle Cayegory:"/>
+            </properties>
+          </component>
+          <component id="30374" class="javax.swing.JLabel" binding="vehicleTypeLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Vehicle Type:"/>
+            </properties>
+          </component>
+          <component id="ad968" class="javax.swing.JLabel" binding="searchResultLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Search Result:"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c319e" binding="eastTextPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="be03f" class="javax.swing.JComboBox" binding="cbxVehicleCategory">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Luxury"/>
+                <item value="Non-Luxury"/>
+              </model>
+            </properties>
+          </component>
+          <component id="a7ea3" class="javax.swing.JComboBox" binding="cbxVehicleType">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Car"/>
+                <item value="SUV"/>
+              </model>
+            </properties>
+          </component>
+          <component id="e2e0" class="javax.swing.JLabel" binding="txtResult">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value="Please click on Search button"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="72e07" binding="southButtons" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="927d5" class="javax.swing.JButton" binding="btnSearch">
+            <constraints/>
+            <properties>
+              <text value="Search"/>
+            </properties>
+          </component>
+          <component id="220a5" class="javax.swing.JButton" binding="btnExit">
+            <constraints/>
+            <properties>
+              <text value="Exit"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
